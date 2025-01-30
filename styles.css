@@ -1,0 +1,52 @@
+* {
+    font-family: Gilroy;
+}
+
+.offers {
+    margin-top: 162px;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.offers__content {}
+
+.offers__main-title {
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 100%;
+    text-align: center;
+    color: #22253b;
+}
+
+.offers__list {}
+
+.offers__card {
+    list-style: none;
+}
+
+.offers__card-image {}
+
+.offers__card-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 116%;
+    text-align: center;
+    color: #22253b;
+}
+
+.offers__card-text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 115%;
+    text-align: center;
+    color: #22253b;
+}
+
+
+@font-face {
+    font-family: Gilroy;
+    src: url(fonts/Gilroy-Light.otf);
+}

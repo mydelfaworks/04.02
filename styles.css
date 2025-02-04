@@ -1,5 +1,6 @@
 * {
     font-family: Gilroy;
+    box-sizing: border-box;
 }
 
 .offers {
@@ -7,7 +8,7 @@
 }
 
 .container {
-    max-width: 1160px;
+    max-width: 1260px;
     margin: 0 auto;
 }
 
@@ -21,10 +22,24 @@
     color: #22253b;
 }
 
-.offers__list {}
+.offers__list {
+    margin-top: 84px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 27px;
+}
 
 .offers__card {
     list-style: none;
+    background-color: #EAF2F5;
+    border-radius: 30px;
+    width: 270px;
+    padding: 50px 35px 31px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
 }
 
 .offers__card-image {}
